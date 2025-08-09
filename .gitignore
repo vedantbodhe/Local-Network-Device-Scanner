@@ -1,0 +1,11 @@
+/target/
+/.idea/
+*.iml
+/node_modules/
+/frontend/generated/
+/vite.generated.ts
+/.pnpm-store/
+.pnpm-debug.log
+.npm/
+.npmrc
+.DS_Store
