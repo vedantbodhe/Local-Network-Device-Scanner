@@ -15,8 +15,6 @@ A **Quarkus** + **Vaadin** web application that scans devices in a local network
 
 - **Backend**: [Quarkus](https://quarkus.io/) (Java)
 - **Frontend**: [Vaadin Flow](https://vaadin.com/flow) (Java-based UI)
-- **HTTP Client**: Java `HttpClient`
-- **JSON Parsing**: Jackson `ObjectMapper`
 
 ## Requirements
 - JDK 17+
@@ -35,6 +33,3 @@ A **Quarkus** + **Vaadin** web application that scans devices in a local network
 - UI: `/`
 - API: `/api/scan?cidr=192.168.1.0/24&timeoutMs=150`
 
-## Notes
-- Servlet bootstrapping is handled via Undertow + the service file at `META-INF/services/jakarta.servlet.ServletContainerInitializer`.
-- Only `/24` is supported for simplicity.
